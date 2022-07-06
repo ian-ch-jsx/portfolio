@@ -3,12 +3,24 @@
 }
 
 .title {
-  margin-top: 40vh;
-  margin-left: 20vw;
+  color: #edebe9;
+  font-family: sans-serif;
+  margin-top: 20vh;
+  margin-left: 10vw;
 }
 
 .title h1 {
   font-size: 4rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #edebe9;
+}
+
+.title strong {
+  color: #fba823;
+}
+
+.illustration {
+  margin-left: 5vw;
 }
 
 img {

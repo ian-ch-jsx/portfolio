@@ -5,7 +5,9 @@ export default function Home() {
   return (
     <div className="home-container">
       <span className="title">
-        <h1>Hi, I'm Ian</h1>
+        <h1>
+          hi, i'm <strong>ian</strong>.
+        </h1>
       </span>
       <span className="illustration">
         <img src={Illustration} />
