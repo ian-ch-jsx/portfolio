@@ -18,6 +18,12 @@
   font-size: 4rem;
   font-family: 'Montserrat', sans-serif;
   color: #edebe9;
+  overflow: hidden;
+  border-right: 0.15em solid transparent;
+  white-space: nowrap;
+  margin: 0 auto;
+
+  animation: typing 3.5s steps(30, end), blink-caret 0.6s step-end 6;
 }
 
 .title strong {
@@ -33,24 +39,21 @@ img {
   height: 95vh;
 }
 
-.dot {
-  display: inline-block;
-}
-/*  Bouncing Animation */
-
-@keyframes bounce {
+@keyframes typing {
   from {
-    transform: translate3d(0, 0, 0);
+    width: 0;
   }
-
   to {
-    transform: translate3d(0, -10px, 0);
+    width: 100%;
   }
 }
 
-.bouncing {
-  color: #edebe9;
-  animation: bounce 0.4s;
-  animation-iteration-count: 6;
-  animation-direction: alternate;
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #fba823;
+  }
 }
