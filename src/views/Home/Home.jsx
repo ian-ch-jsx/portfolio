@@ -6,7 +6,8 @@ export default function Home() {
     <div className="home-container">
       <span className="title">
         <h1>
-          hi, i'm <strong>ian</strong>.
+          hi, i'm <strong>ian</strong>
+          <p className="dot bouncing">.</p>
         </h1>
       </span>
       <span className="illustration">

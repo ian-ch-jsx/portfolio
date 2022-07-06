@@ -3,6 +3,11 @@
 }
 
 .title {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  justify-content: space-between;
   color: #edebe9;
   font-family: sans-serif;
   margin-top: 20vh;
@@ -17,6 +22,7 @@
 
 .title strong {
   color: #fba823;
+  line-height: 0.7;
 }
 
 .illustration {
@@ -25,4 +31,26 @@
 
 img {
   height: 95vh;
+}
+
+.dot {
+  display: inline-block;
+}
+/*  Bouncing Animation */
+
+@keyframes bounce {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(0, -10px, 0);
+  }
+}
+
+.bouncing {
+  color: #edebe9;
+  animation: bounce 0.4s;
+  animation-iteration-count: 6;
+  animation-direction: alternate;
 }
