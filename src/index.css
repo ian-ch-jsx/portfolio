@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Roboto+Mono:wght@300;400&display=swap');
 
 body {
-  background-color: #013a6b;
-  background-image: -webkit-linear-gradient(180deg, #a9a395 50%, #394242 50%);
+  margin: 0;
+  background-color: #394242;
+  background-image: -webkit-linear-gradient(180deg, #394242 50%, #a9a395 50%);
 }
