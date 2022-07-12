@@ -15,7 +15,7 @@ p {
   display: flex;
   color: #edebe9;
   font-family: sans-serif;
-  margin-top: 30vh;
+  margin-top: 20vh;
   margin-left: 20vw;
   width: max-content;
 }
@@ -35,14 +35,21 @@ p {
   margin-right: 8vw;
 }
 
-.description img {
+.socials {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 20vw;
+  margin-right: 8vw;
+}
+
+.socials img {
   padding-top: 40px;
   width: 70px;
   transition: 0.5s ease;
   padding-right: 30px;
 }
 
-.description img:hover {
+.socials img:hover {
   cursor: pointer;
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
@@ -67,6 +74,7 @@ p {
 .links a:hover {
   color: #edebe9;
 }
+
 .example-desc {
   display: flex;
   margin-left: 15vw;
@@ -132,6 +140,18 @@ b {
   width: 30vw;
 }
 
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15vh 8vw 10vh 20vw;
+  margin-left: 20vw;
+}
+
+.nav img {
+  width: 70px;
+  opacity: 0.4;
+  padding-right: 30px;
+}
 @keyframes typing {
   from {
     width: 0;
