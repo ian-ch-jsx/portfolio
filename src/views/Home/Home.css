@@ -32,6 +32,7 @@ p {
 .description {
   display: flex;
   margin-left: 20vw;
+  margin-right: 8vw;
 }
 
 .description img {
@@ -49,9 +50,31 @@ p {
   transition: 0.5s ease;
 }
 
+.links {
+  margin-left: 15vw;
+  margin-top: 10px;
+  justify-content: space-evenly;
+}
+
+.links a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  color: #fba823;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: #edebe9;
+}
 .example-desc {
   display: flex;
   margin-left: 15vw;
+  margin-right: 10vw;
+}
+
+.example-desc p {
+  text-transform: none;
 }
 
 .title h1 {
@@ -78,6 +101,11 @@ p {
 strong {
   color: #fba823;
   line-height: 0.7;
+}
+
+b {
+  color: #fba823;
+  font-weight: normal;
 }
 
 .image {

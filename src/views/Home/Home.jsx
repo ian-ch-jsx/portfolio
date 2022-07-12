@@ -24,7 +24,28 @@ export default function Home() {
               </h1>
             </section>
             <section className="description">
-              <p>I'm a software developer from reno, nv.</p>
+              <p>
+                I'm a full stack software engineer currently located in Reno,
+                NV. I create <b>intuitive</b> software with
+                <b> user experience</b> in mind (because we could all stand to
+                spend a little less time showing mom where to click).
+              </p>
+            </section>
+            <section className="description">
+              <p>
+                When I'm not coding, you might find me <b>exploring nature </b>
+                with my dog or playing <b>video games</b> and watching
+                <b> horror films</b> with my cat.
+              </p>
+            </section>
+            <section className="description">
+              <p>
+                I thrive in <b>collaborative</b> environments where unique
+                perspectives can come together to <b>solve complex problems</b>.
+                I strive to continue to participate in
+                <b> socially responsible work </b>
+                through advocacy, teaching, and learning.
+              </p>
             </section>
             <section className="description">
               <a
@@ -62,13 +83,33 @@ export default function Home() {
                   Self Care <strong>Bear</strong>.
                 </h1>
               </section>
+              <section className="links">
+                <a
+                  href="https://github.com/self-care-bear/self-care-bear"
+                  alt="github repo"
+                >
+                  [github]
+                </a>
+
+                <a
+                  href="https://self-care-bears.netlify.app/"
+                  alt="deployed site"
+                >
+                  [deploy]
+                </a>
+              </section>
               <section className="example-desc">
-                <p>self care bear is</p>
+                <p>
+                  A React app utilizing Supabase, designed to help users create
+                  good habits and maintain daily routines. Written on a 4-day
+                  sprint with a team of 4, I implemented complex conditional
+                  rendering logic and a polished UI.
+                </p>
               </section>
             </section>
           </section>
         </Fade>
-        <Fade left>
+        {/* <Fade left>
           <section className="container">
             <section className="image">
               <img src={DBD} className="preview" />
@@ -84,7 +125,7 @@ export default function Home() {
               </section>
             </section>
           </section>
-        </Fade>
+        </Fade> */}
         <Fade left>
           <section className="container">
             <section className="image">
@@ -96,8 +137,23 @@ export default function Home() {
                   Gotchi <strong>BB</strong>.
                 </h1>
               </section>
+              <section className="links">
+                <a href="https://github.com/Tamagotchi-Clone" alt="github repo">
+                  [github]
+                </a>
+
+                <a href="https://gotchi-bb.netlify.app" alt="deployed site">
+                  [deploy]
+                </a>
+              </section>
               <section className="example-desc">
-                <p>gotchi bb is</p>
+                <p>
+                  A full-stack CRUD app with a RESTful API that allows users to
+                  care for a virtual pet. Written on a 10-day sprint with a team
+                  of 4, I took the lead in project management, executed complex
+                  time-tracking logic, and personally implemented a natural
+                  language processing bot to allow users to chat with their pet.
+                </p>
               </section>
             </section>
           </section>
