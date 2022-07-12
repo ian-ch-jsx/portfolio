@@ -6,6 +6,7 @@ import DBD from '../../../public/assets/DBD.png';
 import GotchiBB from '../../../public/assets/GOTCHIBB.png';
 import GitHub from '../../../public/assets/github.png';
 import LinkedIn from '../../../public/assets/linkedin.png';
+import Resume from '../../../public/assets/resume.png';
 import './Home.css';
 
 export default function Home() {
@@ -26,8 +27,27 @@ export default function Home() {
               <p>I'm a software developer from reno, nv.</p>
             </section>
             <section className="description">
-              <img src={GitHub} />
-              <img src={LinkedIn} />
+              <a
+                href="https://github.com/ian-ch-jsx"
+                target="_blank"
+                alt="visit my github profile"
+              >
+                <img src={GitHub} alt="" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ian-ch-jsx/"
+                target="_blank"
+                alt="visit my linkedin profile"
+              >
+                <img src={LinkedIn} alt="" />
+              </a>
+              <a
+                href="https://drive.google.com/file/d/13jcWnkAZ_hgd4MBHE9c_7XAlmCF-PEnD/view?usp=sharing"
+                target="_blank"
+                alt="view my resume"
+              >
+                <img src={Resume} alt="" title="view my resume" />
+              </a>
             </section>
           </section>
         </section>
