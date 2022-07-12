@@ -7,11 +7,12 @@ import GotchiBB from '../../../public/assets/GOTCHIBB.png';
 import GitHub from '../../../public/assets/github.png';
 import LinkedIn from '../../../public/assets/linkedin.png';
 import Resume from '../../../public/assets/resume.png';
+import Nav from '../../../public/assets/chevron.png';
 import './Home.css';
 
 export default function Home() {
   return (
-    <FadeIn>
+    <FadeIn delay="100">
       <main>
         <section className="container">
           <section className="image">
@@ -47,7 +48,7 @@ export default function Home() {
                 through advocacy, teaching, and learning.
               </p>
             </section>
-            <section className="description">
+            <section className="socials">
               <a
                 href="https://github.com/ian-ch-jsx"
                 target="_blank"
@@ -70,15 +71,21 @@ export default function Home() {
                 <img src={Resume} alt="" title="view my resume" />
               </a>
             </section>
+            <section className="nav">
+              <a href="#examples">
+                <img src={Nav} />
+              </a>
+            </section>
           </section>
         </section>
+
         <Fade left>
           <section className="container">
             <section className="image">
               <img src={SelfCareBear} className="preview" />
             </section>
             <section>
-              <section className="example">
+              <section className="example" id="examples">
                 <h1>
                   Self Care <strong>Bear</strong>.
                 </h1>
