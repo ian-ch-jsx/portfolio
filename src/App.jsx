@@ -1,3 +1,10 @@
+import Home from './views/Home/Home';
+import NavBar from './views/Layout/NavBar';
+
 export default function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <>
+      <Home />
+    </>
+  );
 }

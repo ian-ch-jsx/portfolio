@@ -1,0 +1,152 @@
+.container {
+  display: flex;
+}
+
+p {
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #e3e2dd;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+.title {
+  display: flex;
+  color: #edebe9;
+  font-family: sans-serif;
+  margin-top: 30vh;
+  margin-left: 20vw;
+  width: max-content;
+}
+
+.example {
+  display: flex;
+  color: #edebe9;
+  font-family: sans-serif;
+  margin-top: 30vh;
+  margin-left: 15vw;
+  width: max-content;
+}
+
+.description {
+  display: flex;
+  margin-left: 20vw;
+  margin-right: 8vw;
+}
+
+.description img {
+  padding-top: 40px;
+  width: 70px;
+  transition: 0.5s ease;
+  padding-right: 30px;
+}
+
+.description img:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 0.5s ease;
+}
+
+.links {
+  margin-left: 15vw;
+  margin-top: 10px;
+  justify-content: space-evenly;
+}
+
+.links a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  color: #fba823;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: #edebe9;
+}
+.example-desc {
+  display: flex;
+  margin-left: 15vw;
+  margin-right: 10vw;
+}
+
+.example-desc p {
+  text-transform: none;
+}
+
+.title h1 {
+  font-size: 4rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #edebe9;
+  overflow: hidden;
+  border-right: 0.15em solid transparent;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 3.5s steps(30, end), blink-caret 0.6s step-end 6;
+}
+
+.example h1 {
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #edebe9;
+  overflow: hidden;
+  border-right: 0.15em solid transparent;
+  white-space: nowrap;
+  margin: 0 auto;
+}
+
+strong {
+  color: #fba823;
+  line-height: 0.7;
+}
+
+b {
+  color: #fba823;
+  font-weight: normal;
+}
+
+.image {
+  margin-left: 5vw;
+}
+
+.illustration {
+  height: 95vh;
+}
+
+.preview {
+  margin-top: 30vh;
+  width: 35vw;
+  opacity: 1;
+  border-radius: 50px;
+}
+
+.portfolio-1 {
+  display: flex;
+  margin: 10vw 0 0 5vw;
+}
+
+.portfolio-1 img {
+  width: 30vw;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #fba823;
+  }
+}
