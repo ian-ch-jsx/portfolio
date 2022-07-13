@@ -39,7 +39,7 @@ p {
   display: flex;
   color: #edebe9;
   font-family: sans-serif;
-  margin-top: 10vh;
+  margin-top: 5vh;
   margin-left: 55vw;
   width: max-content;
 }
@@ -97,7 +97,7 @@ p {
 
 .example-desc p {
   text-transform: none;
-  /* text-align: justify; */
+  font-size: 1.1rem;
 }
 
 .title h1 {
@@ -120,6 +120,7 @@ p {
   white-space: nowrap;
   margin: 0 auto;
 }
+
 .example h1 {
   font-size: 2rem;
   font-family: 'Montserrat', sans-serif;
@@ -156,7 +157,7 @@ b {
   font-weight: bold;
   object-fit: cover;
   shape-outside: circle();
-  margin: 20px;
+  margin: 0 20px 20px 0;
   color: white;
   filter: grayscale(80%);
 }
