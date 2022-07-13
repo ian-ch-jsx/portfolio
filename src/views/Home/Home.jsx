@@ -15,7 +15,7 @@ export default function Home() {
       <main>
         <section className="container">
           <section className="title-image">
-            <img src={Illustration} className="illustration" />
+            <img src={Illustration} className="illustration" id="optional" />
           </section>
           <section>
             <section className="title">
