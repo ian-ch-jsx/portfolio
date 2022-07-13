@@ -21,11 +21,12 @@ p {
   display: flex;
   color: #edebe9;
   font-family: sans-serif;
-  margin: 20vh 0 5ch 55vw;
+  margin: 15vh 0 5ch 55vw;
   width: max-content;
 }
 
-.header {
+.header,
+.footer {
   display: flex;
   color: #edebe9;
   font-family: sans-serif;
@@ -115,10 +116,11 @@ p {
   font-size: 3.2rem;
   font-family: 'Montserrat', sans-serif;
   color: #edebe9;
-  overflow: hidden;
-  border-right: 0.15em solid transparent;
-  white-space: nowrap;
-  margin: 0 auto;
+}
+
+.footer h2 {
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .example h1 {

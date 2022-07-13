@@ -7,7 +7,6 @@ import GotchiBB from '../../../public/assets/GOTCHIBB.png';
 import GitHub from '../../../public/assets/github.png';
 import LinkedIn from '../../../public/assets/linkedin.png';
 import Resume from '../../../public/assets/resume.png';
-import Nav from '../../../public/assets/chevron.png';
 import './Home.css';
 
 export default function Home() {
@@ -64,7 +63,7 @@ export default function Home() {
                 <img src={LinkedIn} alt="" />
               </a>
               <a
-                href="https://drive.google.com/file/d/13jcWnkAZ_hgd4MBHE9c_7XAlmCF-PEnD/view?usp=sharing"
+                href="https://drive.google.com/file/d/13WkGhMiH57x9XMxDuKme7hWIXPIvs_Gf/view?usp=sharing"
                 target="_blank"
                 alt="view my resume"
               >
@@ -197,7 +196,6 @@ export default function Home() {
               </section>
               <section className="example-desc">
                 <p>
-                  {' '}
                   <img src={DBD} className="preview" />A win/loss statistics
                   manager for the game Dead By Daylight written in React and
                   utilizing Supabase for the backend. Allows users to track
@@ -206,6 +204,13 @@ export default function Home() {
                 </p>
               </section>
             </section>
+          </section>
+        </Fade>
+        <Fade>
+          <section className="footer">
+            <h2>
+              <strong>thanks</strong> for stopping by<strong>.</strong>
+            </h2>
           </section>
         </Fade>
       </main>
