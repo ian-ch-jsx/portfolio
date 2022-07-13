@@ -71,19 +71,18 @@ export default function Home() {
                 <img src={Resume} alt="" title="view my resume" />
               </a>
             </section>
-            {/* <section className="nav">
-              <a href="#examples">
-                <img src={Nav} />
-              </a>
-            </section> */}
+            <Fade>
+              <section className="header">
+                <h2>
+                  recent <strong>projects</strong>.
+                </h2>
+              </section>
+            </Fade>
           </section>
         </section>
 
-        <Fade left>
+        <Fade>
           <section className="container">
-            {/* <section className="image">
-              <img src={SelfCareBear} className="preview" />
-            </section> */}
             <section>
               <section className="example">
                 <h1>
@@ -107,20 +106,18 @@ export default function Home() {
               </section>
               <section className="example-desc">
                 <p>
-                  A React app utilizing Supabase, designed to help users create
-                  good habits and maintain daily routines. Written on a 4-day
-                  sprint with a team of 4, I implemented complex conditional
-                  rendering logic and a polished UI.
+                  <img src={SelfCareBear} className="preview" />A React app
+                  utilizing Supabase, designed to help users create good habits
+                  and maintain daily routines. Written on a 4-day sprint with a
+                  team of 4, I implemented complex conditional rendering logic
+                  and a polished UI.
                 </p>
               </section>
             </section>
           </section>
         </Fade>
-        <Fade left>
+        <Fade>
           <section className="container">
-            {/* <section className="image">
-              <img src={DBD} className="preview" />
-            </section> */}
             <section>
               <section className="example">
                 <h1>
@@ -128,16 +125,14 @@ export default function Home() {
                 </h1>
               </section>
               <section className="example-desc">
+                <img src={DBD} className="preview" />
                 <p>DBD stats manager is </p>
               </section>
             </section>
           </section>
         </Fade>
-        <Fade left>
+        <Fade>
           <section className="container">
-            {/* <section className="image">
-              <img src={GotchiBB} className="preview" />
-            </section> */}
             <section>
               <section className="example">
                 <h1>
@@ -155,11 +150,12 @@ export default function Home() {
               </section>
               <section className="example-desc">
                 <p>
-                  A full-stack CRUD app with a RESTful API that allows users to
-                  care for a virtual pet. Written on a 10-day sprint with a team
-                  of 4, I took the lead in project management, executed complex
-                  time-tracking logic, and personally implemented a natural
-                  language processing bot to allow users to chat with their pet.
+                  <img src={GotchiBB} className="preview" />A full-stack CRUD
+                  app with a RESTful API that allows users to care for a virtual
+                  pet. Written on a 10-day sprint with a team of 4, I took the
+                  lead in project management, executed complex time-tracking
+                  logic, and personally implemented a natural language
+                  processing bot to allow users to chat with their pet.
                 </p>
               </section>
             </section>
