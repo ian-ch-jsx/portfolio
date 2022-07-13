@@ -15,7 +15,7 @@ export default function Home() {
     <FadeIn delay="100">
       <main>
         <section className="container">
-          <section className="image">
+          <section className="title-image">
             <img src={Illustration} className="illustration" />
           </section>
           <section>
@@ -71,21 +71,21 @@ export default function Home() {
                 <img src={Resume} alt="" title="view my resume" />
               </a>
             </section>
-            <section className="nav">
+            {/* <section className="nav">
               <a href="#examples">
                 <img src={Nav} />
               </a>
-            </section>
+            </section> */}
           </section>
         </section>
 
         <Fade left>
           <section className="container">
-            <section className="image">
+            {/* <section className="image">
               <img src={SelfCareBear} className="preview" />
-            </section>
+            </section> */}
             <section>
-              <section className="example" id="examples">
+              <section className="example">
                 <h1>
                   Self Care <strong>Bear</strong>.
                 </h1>
@@ -116,11 +116,11 @@ export default function Home() {
             </section>
           </section>
         </Fade>
-        {/* <Fade left>
+        <Fade left>
           <section className="container">
-            <section className="image">
+            {/* <section className="image">
               <img src={DBD} className="preview" />
-            </section>
+            </section> */}
             <section>
               <section className="example">
                 <h1>
@@ -132,12 +132,12 @@ export default function Home() {
               </section>
             </section>
           </section>
-        </Fade> */}
+        </Fade>
         <Fade left>
           <section className="container">
-            <section className="image">
+            {/* <section className="image">
               <img src={GotchiBB} className="preview" />
-            </section>
+            </section> */}
             <section>
               <section className="example">
                 <h1>

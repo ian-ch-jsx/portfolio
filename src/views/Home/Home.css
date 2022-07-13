@@ -2,6 +2,12 @@
   display: flex;
 }
 
+.title-image {
+  display: flex;
+  position: fixed;
+  left: 5vw;
+}
+
 p {
   font-family: 'Roboto Mono', sans-serif;
   font-weight: 300;
@@ -16,7 +22,7 @@ p {
   color: #edebe9;
   font-family: sans-serif;
   margin-top: 20vh;
-  margin-left: 20vw;
+  margin-left: 55vw;
   width: max-content;
 }
 
@@ -25,20 +31,20 @@ p {
   color: #edebe9;
   font-family: sans-serif;
   margin-top: 30vh;
-  margin-left: 15vw;
+  margin-left: 55vw;
   width: max-content;
 }
 
 .description {
   display: flex;
-  margin-left: 20vw;
+  margin-left: 55vw;
   margin-right: 8vw;
 }
 
 .socials {
   display: flex;
   justify-content: space-evenly;
-  margin-left: 20vw;
+  margin-left: 55vw;
   margin-right: 8vw;
 }
 
@@ -58,7 +64,7 @@ p {
 }
 
 .links {
-  margin-left: 15vw;
+  margin-left: 55vw;
   margin-top: 10px;
   justify-content: space-evenly;
 }
@@ -77,7 +83,7 @@ p {
 
 .example-desc {
   display: flex;
-  margin-left: 15vw;
+  margin-left: 55vw;
   margin-right: 10vw;
 }
 
